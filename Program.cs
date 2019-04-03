@@ -30,6 +30,7 @@ namespace LSP
         /// <param name="pizza">The Pizza object to be processed</param>
         static void ProcessPizza(Pizza pizza)
         {
+            // Debug statement. 
             Console.WriteLine("Program.ProcessPizza(): the Pizza object is a " + pizza.GetType());
             // If pizza is of type DeepDish then the PrintToppings method will come from the DeepDish class
             // and that method uses a different toppings collection.

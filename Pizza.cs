@@ -19,6 +19,9 @@ namespace LSP
             get { return mPizzaToppings; }
             set { mPizzaToppings = value; }
         }
+        /// <summary>
+        /// Print the toppings on the pizza
+        /// </summary>
         public void PrintToppings()
         {
             foreach (String t in mPizzaToppings)
@@ -26,6 +29,10 @@ namespace LSP
                 Console.WriteLine(t);
             }
         }
+        /// <summary>
+        /// Add a topping to the the pizza
+        /// </summary>
+        /// <param name="topping"></param>
         public void AddTopping(String topping)
         {
             mPizzaToppings.Add(topping);

@@ -23,10 +23,17 @@ namespace LSP
             get { return mDeepDishToppings; }
             set { mDeepDishToppings = value; }
         }
+        /// <summary>
+        /// Add a topping to the pizza
+        /// </summary>
+        /// <param name="topping"></param>
         public new void AddTopping(String topping)
         {
             mDeepDishToppings.Add(topping);
         }
+        /// <summary>
+        /// Print the toppings on the pizza
+        /// </summary>
         public new void PrintToppings()
         {
             foreach (String t in mDeepDishToppings)
