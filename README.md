@@ -1,2 +1,2 @@
 # LSP
-LSP Demo
+Liskov Substitution Violation Demo
